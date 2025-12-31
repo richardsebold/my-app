@@ -25,7 +25,7 @@ export function Hero() {
         <article className='grid grid-cols-1 lg:grid-cols-2 gap-8'>
 
           <div className='space-y-6'>
-            <h1 className="text-3xl md:text-4xl lg:5xl leading-10 font-bold">
+            <h1 className="text-3xl md:text-4xl lg:5xl leading-10 font-bold" data-aos="">
               Seu pet merece cuidado, carinho e atenção especial
             </h1>
             <p className="lg:text-lg">
@@ -33,13 +33,13 @@ export function Hero() {
             </p>
 
 
-            <a className="bg-green-500 px-5 py-2 rounded-md font-semibold flex items-center justify-center w-fit gap-2" href="">
+            <a target="_blank" href="https://wa.me/5547997714395?text=Olá vim pelo site e gostaria de saber mais informações." className="bg-green-500 px-5 py-2 rounded-md font-semibold flex items-center justify-center w-fit gap-2">
               <WhatsappLogo className='w-5 h-5' />
               Contato via WhatsApp
             </a>
 
-            <div className="mt-8">
-              <p className="text-sm mb-4">
+            <div className="mt-8" data-aos="fade-up">
+              <p className="text-sm mb-4" data-aos="fade-up">
                 <strong className="bg-black text-white px-2 py-1 rounded-md">5%</strong> de Desconto na primeira compra.
               </p>
 
